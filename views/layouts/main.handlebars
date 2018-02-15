@@ -58,7 +58,8 @@
       
         <!-- Submit Button -->
         <center>
-          <button id="submit-button" type="submit" class="btn btn-danger">Place Order</button>
+          <audio id="sound1" src="/assets/sounds/Frying_Food-J_Bravo-1591470421.mp3" preload="auto"></audio>
+          <button id="submit-button" type="submit" class="btn btn-danger" onclick="document.getElementById('sound1').play();">Place Order</button>
         </center>
 
       </form>
@@ -70,8 +71,7 @@
     <!-- Link in jQuery -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
-    <!-- Link in Local JavaScript (for sound effects) -->
-    <script src="/assets/javascript/burger_sounds.js"></script>
+    
 
   </body>
 </html>

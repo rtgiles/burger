@@ -37,8 +37,7 @@ var orm = {
      connection.query('INSERT INTO burgers SET ?', {
        burger_name: burger_name,
        devoured: false,
-       created_at: timestamp
-     }, function (err, result) {
+      }, function (err, result) {
        if (err) throw err;
        callback(result);
      });

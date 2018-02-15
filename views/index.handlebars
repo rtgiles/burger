@@ -12,7 +12,8 @@
             <div class="input-group">
               <li class="form-control">{{id}}. {{burger_name}}</li>
                 <span class="input-group-btn">
-                  <button class="btn btn-success devour-button" type="submit">Devour It!</button>
+                  <audio id="sound1" src="/assets/sounds/Frying_Food-J_Bravo-1591470421.mp3" preload="auto"></audio>
+                  <button class="btn btn-success devour-button" type="submit" onclick="document.getElementById('sound1').play();">Devour It!</button>
                 </span>
             </div>
           </form>
